@@ -17,7 +17,7 @@ app.listen(8080, () => {
 
 //mongoose
 
-mongoose.connect('mongodb://localhost:27017/jatin')
+mongoose.connect('mongodb+srv://jk0060701:YNGaddqw8kbBqixG@cluster0.jrxe8v9.mongodb.net/insta')
     .then(() => {
         console.log("mongoose connect")
     })
